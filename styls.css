@@ -1,0 +1,119 @@
+body{
+  background-image: url('image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh; /* full viewport height */
+}
+
+.header{
+    margin : 20px 100px 0px 100px;
+    display : grid;
+    grid-template-columns: 1fr 1fr auto;
+
+}
+
+
+.one{
+    grid-row-start : 1;
+    grid-row-end: 3;
+    font-size : 60px;
+    font-weight: 700;
+    color: #8C0909;
+
+}
+
+#i{
+    margin-top: 0px;
+}
+
+.two{
+    margin-left: auto;
+
+    margin-right: 10px;
+    border: 2px solid black;
+    padding : 0px 20px;
+    line-height: 1;
+    border-radius: 5px;
+
+    font-size : 1rem;
+
+    font-family: cursive;
+    color: #FDFFF0;
+    background-color: transparent;
+}
+
+.three{
+    margin-left: auto;
+
+    border: 2px solid black;
+    padding : 0px 20px;
+    line-height: 1;
+    border-radius: 5px;
+
+    font-family: cursive;
+    background-color: #8C0909;
+    color: #FDFFF0;
+}
+
+
+.mid{
+    display : grid;
+    grid-template-columns: 2fr 1fr;
+
+    margin : 20px 300px 100px 300px;
+}
+
+.m{
+    grid-column: span 2 ;
+
+    text-align: center;
+}
+
+.m1{
+    font-size : 5rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.m2{
+    font-size: 2rem ;
+    color: wheat;
+}
+
+.m3{
+    font-size: 1.5rem;
+
+    color: wheat;
+
+}
+
+.m4{
+    font-size: 2rem;
+    margin-left: 80px;
+    margin-top: 0px;
+
+    border: 1px solid black;
+    padding : 15px 30px;
+    line-height: 1;
+    border-radius: 5px;
+    border-width: 0.06cm;
+    
+    color : #3D3D3D;
+    background-color: transparent;
+}
+
+.m5{
+    font-size: 2rem;
+    margin-left: 50px;
+    margin-top: 0px;
+
+    border: 1px solid black;
+    padding : 15px 30px;
+    line-height: 1;
+    border-radius: 5px;
+    border-width: 0.06cm;
+
+    background-color: #8C0909;
+    color: #FDFFF0;
+}
